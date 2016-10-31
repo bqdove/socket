@@ -15,18 +15,5 @@
         "psr-4": {
             "Notadd\\Socket\\": "src/"
         }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Tests\\": "tests/"
-        }
-    },
-    "require": {
-        "php": ">=5.6.4"
-    },
-    "require-dev": {
-    },
-    "config": {
-        "preferred-install": "dist"
     }
 }
