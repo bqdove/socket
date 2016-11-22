@@ -17,6 +17,17 @@ use Notadd\Socket\Commands\SocketServerCommand;
 class Extension extends ExtensionRegistrar
 {
     /**
+     * @return array
+     */
+    public function getExtensionInfo()
+    {
+        return [
+            'author' => 'twilroad <269044570@qq.com>',
+            'description' => 'A module for Notadd',
+        ];
+    }
+
+    /**
      * @return string
      */
     public function getExtensionName()
