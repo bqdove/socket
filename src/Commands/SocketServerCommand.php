@@ -36,7 +36,7 @@ class SocketServerCommand extends Command
     }
 
     /**
-     * @return void
+     * TODO: Method configure Description
      */
     protected function configure()
     {
@@ -53,6 +53,8 @@ class SocketServerCommand extends Command
     }
 
     /**
+     * TODO: Method fire Description
+     *
      * @return bool
      */
     protected function fire()
