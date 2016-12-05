@@ -17,7 +17,7 @@ use Notadd\Socket\Commands\SocketServerCommand;
 class Extension extends ExtensionRegistrar
 {
     /**
-     * TODO: Method getExtensionInfo Description
+     * Info for extension.
      *
      * @return array
      */
