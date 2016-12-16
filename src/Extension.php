@@ -8,56 +8,19 @@
  */
 namespace Notadd\Socket;
 
-use Notadd\Foundation\Extension\Abstracts\ExtensionRegistrar;
+use Notadd\Foundation\Extension\Abstracts\Extension as AbstractExtension;
 use Notadd\Socket\Commands\SocketServerCommand;
 
 /**
  * Class Extension.
  */
-class Extension extends ExtensionRegistrar
+class Extension extends AbstractExtension
 {
     /**
-     * Info for extension.
-     *
-     * @return array
+     * Boot extension.
      */
-    public function getExtensionInfo()
+    public function boot()
     {
-        return [
-            'author'      => 'twilroad <269044570@qq.com>',
-            'description' => 'A module for Notadd',
-        ];
-    }
-
-    /**
-     * Name for extension.
-     *
-     * @return string
-     */
-    public function getExtensionName()
-    {
-        return 'notadd/socket';
-    }
-
-    /**
-     * Path for extension.
-     *
-     * @return string
-     */
-    public function getExtensionPath()
-    {
-        return realpath(__DIR__ . '/../');
-    }
-
-    /**
-     * Commands define by extension.
-     *
-     * @return array
-     */
-    public function loadCommands()
-    {
-        return [
-            SocketServerCommand::class,
-        ];
+        $this->commands(SocketServerCommand::class);
     }
 }
