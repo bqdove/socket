@@ -1,6 +1,6 @@
 {
     "name": "notadd/socket",
-    "description": "The Notadd Module.",
+    "description": "A Notadd Extension to use socket foundation.",
     "keywords": ["notadd", "cms", "framework", "socket"],
     "homepage": "https://notadd.com",
     "license": "Apache-2.0",
