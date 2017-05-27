@@ -11,6 +11,7 @@ namespace Notadd\Socket;
 use Illuminate\Events\Dispatcher;
 use Notadd\Foundation\Module\Abstracts\Module;
 use Notadd\Socket\Listeners\PermissionGroupRegister;
+use Notadd\Socket\Listeners\PermissionModuleRegister;
 use Notadd\Socket\Listeners\PermissionTypeRegister;
 
 /**
@@ -24,6 +25,7 @@ class ModuleServiceProvider extends Module
     public function boot()
     {
         $this->app->make(Dispatcher::class)->subscribe(PermissionGroupRegister::class);
+        $this->app->make(Dispatcher::class)->subscribe(PermissionModuleRegister::class);
         $this->app->make(Dispatcher::class)->subscribe(PermissionTypeRegister::class);
     }
 
