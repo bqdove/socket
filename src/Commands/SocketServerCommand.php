@@ -3,7 +3,7 @@
  * This file is part of Notadd.
  *
  * @author TwilRoad <heshudong@ibenchu.com>
- * @copyright (c) 2016, iBenchu.org
+ * @copyright (c) 2016, notadd.com
  * @datetime 2016-10-17 16:04
  */
 namespace Notadd\Socket\Commands;
