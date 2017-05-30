@@ -42,7 +42,7 @@ class ModuleServiceProvider extends Module
      */
     public static function description()
     {
-        // TODO: Implement description() method.
+        return '';
     }
 
     /**
@@ -62,7 +62,7 @@ class ModuleServiceProvider extends Module
      */
     public static function name()
     {
-        // TODO: Implement name() method.
+        return 'Socket';
     }
 
     /**
@@ -82,6 +82,6 @@ class ModuleServiceProvider extends Module
      */
     public static function version()
     {
-        // TODO: Implement version() method.
+        return '0.1.0';
     }
 }
