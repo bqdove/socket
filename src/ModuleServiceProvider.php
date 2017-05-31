@@ -52,7 +52,7 @@ class ModuleServiceProvider extends Module
      */
     public static function install()
     {
-        // TODO: Implement install() method.
+        return '';
     }
 
     /**
@@ -72,7 +72,7 @@ class ModuleServiceProvider extends Module
      */
     public static function uninstall()
     {
-        // TODO: Implement uninstall() method.
+        return '';
     }
 
     /**
