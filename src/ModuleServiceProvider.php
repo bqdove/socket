@@ -38,16 +38,6 @@ class ModuleServiceProvider extends Module
     }
 
     /**
-     * Description of module
-     *
-     * @return string
-     */
-    public static function description()
-    {
-        return '';
-    }
-
-    /**
      * Install for module.
      *
      * @return string
@@ -58,16 +48,6 @@ class ModuleServiceProvider extends Module
     }
 
     /**
-     * Name of module.
-     *
-     * @return string
-     */
-    public static function name()
-    {
-        return 'Socket';
-    }
-
-    /**
      * Uninstall for module.
      *
      * @return string
@@ -75,15 +55,5 @@ class ModuleServiceProvider extends Module
     public static function uninstall()
     {
         return '';
-    }
-
-    /**
-     * Version of module.
-     *
-     * @return string
-     */
-    public static function version()
-    {
-        return '0.1.0';
     }
 }
