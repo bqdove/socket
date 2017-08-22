@@ -2,8 +2,8 @@
 /**
  * This file is part of Notadd.
  *
- * @author TwilRoad <269044570@qq.com>
- * @copyright (c) 2016, iBenchu.org
+ * @author TwilRoad <heshudong@ibenchu.com>
+ * @copyright (c) 2016, notadd.com
  * @datetime 2016-10-17 16:04
  */
 namespace Notadd\Socket\Commands;

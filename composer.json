@@ -1,14 +1,14 @@
 {
     "name": "notadd/socket",
-    "description": "A Notadd Extension to use socket foundation.",
-    "keywords": ["notadd", "cms", "framework", "socket"],
+    "description": "A Notadd Module to use socket foundation.",
+    "keywords": ["notadd", "framework", "socket"],
     "homepage": "https://notadd.com",
     "license": "Apache-2.0",
-    "type": "notadd-extension",
+    "type": "notadd-module",
     "authors": [
         {
             "name": "twilroad",
-            "email": "269044570@qq.com"
+            "email": "heshudong@ibenchu.com"
         }
     ],
     "autoload": {
@@ -16,8 +16,16 @@
             "Notadd\\Socket\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Notadd\\Socket\\Tests\\": "tests/"
+        }
+    },
     "require": {
-        "php": ">=7.0",
-        "notadd/installers": "0.1.*"
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "notadd/installers": "0.5.*",
+        "phpunit/phpunit": "~5.7"
     }
 }
