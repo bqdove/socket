@@ -1,0 +1,10 @@
+name: Socket
+identification: notadd/socket
+description: 'Socket'
+author:
+    - twilroad
+    - 269044570@qq.com
+version: 0.1.0
+events:
+    subscribes:
+        - Notadd\Socket\Listeners\RouteRegister
